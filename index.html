@@ -18,12 +18,7 @@
 <body>
 
 	<div class="wrapper">
-		<div class="background">
-			<picture>
-				<source srcset="./img/bg.webp" type="image/webp">
-				<img src="./img/bg.png" width="" height="" alt="">
-			</picture>
-		</div>
+
 
 		<header class="header">
 	<div class="header__container">
@@ -37,8 +32,15 @@
 	</div>
 </header>
 
-		      <main class="hero">
+		
 
+      <main class="hero">
+      	<div class="background">
+      		<picture>
+      			<source srcset="./img/bg.webp" type="image/webp">
+      			<img src="./img/bg.png" width="" height="" alt="">
+      		</picture>
+      	</div>
 
       	<div class="hero__container">
 
@@ -46,12 +48,11 @@
       			<p class="hero__text">Bitcoin liquidity layer on TON</p>
       			<h1 class="hero__title">Earn 8% on your Bitcoins</h1>
       		</div>
-      		<div class="hero__video">
-      			<video autoplay muted loop playsinline style="background-color: transparent;">
-      				<source src="./video/3.webm" type="video/webm">
 
-      				<source src="video/4.mov" type="video/mp4; codecs=hevc">
-      			
+      		<div class="hero__video">
+      			<video class="foreground" autoplay muted loop playsinline style="background-color: transparent;">
+      				<!-- <source src="./video/1.webm" type="video/webm"> -->
+      				<source src="./video/1.mp4" type="video/mp4">
       			</video>
       		</div>
       	</div>
