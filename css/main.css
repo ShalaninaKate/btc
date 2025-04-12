@@ -246,8 +246,8 @@ body._lock {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: 0 0;
-  object-position: 0 0;
+  -o-object-position: 50%;
+  object-position: 50%;
 }
 
 .header {
@@ -463,14 +463,14 @@ body._lock {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
     right: 0;
-    width: 55%;
+    width: 50%;
     overflow: hidden;
   }
 }
 @media (max-width: 64em) {
   .hero__video {
     margin-left: -1.25rem;
-    margin-right: -1.25rem;
+    margin-right: -0.9375rem;
   }
 }
 
