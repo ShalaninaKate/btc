@@ -357,7 +357,6 @@ body._lock {
   }
 }
 .hero__container {
-  position: relative;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,6 +446,9 @@ body._lock {
   -ms-transform: translate(0px, 0);
   transform: translate(0px, 0);
   opacity: 1;
+}
+.hero__video {
+  mix-blend-mode: lighten;
 }
 .hero__video video {
   width: 100%;
